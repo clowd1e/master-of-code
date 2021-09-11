@@ -1,0 +1,71 @@
+.start-container {
+    width: 1180px;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+.end-container {
+    width: 1180px;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+.start-container div {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+.end-container div {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+.infected {
+    background-color: rgb(253, 148, 148);
+}
+.uninfected {
+    background-color: rgb(163, 255, 163);
+}
+.ocean {
+    background-color: rgb(166, 166, 255);
+}
+.total-div {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+}
+.total {
+    margin-left: 5px;
+}
+p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+.infected-div {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+}
+.infected-p {
+    margin-left: 5px;
+}
+.percentage-div {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+}
+.percentage {
+    margin-left: 5px;
+}
